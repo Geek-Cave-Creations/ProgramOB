@@ -1,0 +1,24 @@
+#################
+## Program O
+#################
+
+logs/*.log
+config/*.ini
+bots/*
+!bots/default
+
+#################
+## IntelliJ
+#################
+
+## Ignore intellij files
+
+## User-specific files
+*.idea
+
+#################
+## Rapid PHP
+#################
+
+## ignore Rapid PHP preview files
+prev*~*

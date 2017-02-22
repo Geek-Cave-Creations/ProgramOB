@@ -1,0 +1,16 @@
+## ToDo
+
+*just about everything* - here is a short list:
+
+1.) Convert Program AB base classes to use with Program O [Done]
+
+2.) Separate the "brain" into discrete sections (e.g. properties, AIML, etc.)
+
+3.) Improve performance by integrating both memcache and APCu into the core code
+
+4.) just about everything else
+
+
+
+
+

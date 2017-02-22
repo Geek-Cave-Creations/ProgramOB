@@ -1,0 +1,140 @@
+PHP Caching systems:
+    APC, APCu, Memcache, Memcached, Redis
+
+Caching system constants:
+
+    APC:
+
+        APC_BIN_VERIFY_CRC32
+        APC_BIN_VERIFY_MD5
+
+
+    APC/APCU:
+
+        APC_ITER_ALL
+        APC_ITER_ATIME
+        APC_ITER_CTIME
+        APC_ITER_DEVICE
+        APC_ITER_DTIME
+        APC_ITER_FILENAME
+        APC_ITER_INODE
+        APC_ITER_KEY
+        APC_ITER_MD5
+        APC_ITER_MEM_SIZE
+        APC_ITER_MTIME
+        APC_ITER_NONE
+        APC_ITER_NUM_HITS
+        APC_ITER_REFCOUNT
+        APC_ITER_TTL
+        APC_ITER_TYPE
+        APC_ITER_VALUE
+        APC_LIST_ACTIVE
+        APC_LIST_DELETED
+
+
+    Memcache:
+
+        MEMCACHE_COMPRESSED
+        MEMCACHE_HAVE_SESSION
+        MEMCACHE_USER1
+        MEMCACHE_USER2
+        MEMCACHE_USER3
+        MEMCACHE_USER4
+
+
+    Memcached:
+
+        Memcached::OPT_COMPRESSION
+        Memcached::OPT_SERIALIZER
+            (
+                Memcached::SERIALIZER_PHP (default)
+                Memcached::SERIALIZER_IGBINARY
+                Memcached::SERIALIZER_JSON
+            )
+        Memcached::OPT_PREFIX_KEY
+        Memcached::OPT_HASH
+            (
+                Memcached::HASH_DEFAULT (default)
+                Memcached::HASH_MD5
+                Memcached::HASH_CRC
+                Memcached::HASH_FNV1_64
+                Memcached::HASH_FNV1A_64
+                Memcached::HASH_FNV1_32
+                Memcached::HASH_FNV1A_32
+                Memcached::HASH_HSIEH
+                Memcached::HASH_MURMUR
+            )
+
+        Memcached::OPT_DISTRIBUTION
+            (
+                Memcached::DISTRIBUTION_MODULA (default)
+                Memcached::DISTRIBUTION_CONSISTENT
+            )
+
+        Memcached::OPT_LIBKETAMA_COMPATIBLE
+        Memcached::OPT_BUFFER_WRITES
+        Memcached::OPT_BINARY_PROTOCOL
+        Memcached::OPT_NO_BLOCK
+        Memcached::OPT_TCP_NODELAY
+        Memcached::OPT_SOCKET_SEND_SIZE
+        Memcached::OPT_SOCKET_RECV_SIZE
+        Memcached::OPT_CONNECT_TIMEOUT
+        Memcached::OPT_RETRY_TIMEOUT
+        Memcached::OPT_SEND_TIMEOUT
+        Memcached::OPT_RECV_TIMEOUT
+        Memcached::OPT_POLL_TIMEOUT
+        Memcached::OPT_CACHE_LOOKUPS
+        Memcached::OPT_SERVER_FAILURE_LIMIT
+        Memcached::HAVE_IGBINARY
+        Memcached::HAVE_JSON
+        Memcached::GET_PRESERVE_ORDER
+        Memcached::RES_SUCCESS
+        Memcached::RES_FAILURE
+        Memcached::RES_HOST_LOOKUP_FAILURE
+        Memcached::RES_UNKNOWN_READ_FAILURE
+        Memcached::RES_PROTOCOL_ERROR
+        Memcached::RES_CLIENT_ERROR
+        Memcached::RES_WRITE_FAILURE
+        Memcached::RES_DATA_EXISTS
+        Memcached::RES_NOTSTORED
+        Memcached::RES_NOTFOUND
+        Memcached::RES_PARTIAL_READ
+        Memcached::RES_SOME_ERRORS
+        Memcached::RES_NO_SERVERS
+        Memcached::RES_END
+        Memcached::RES_ERRNO
+        Memcached::RES_BUFFERED
+        Memcached::RES_TIMEOUT
+        Memcached::RES_BAD_KEY_PROVIDED
+        Memcached::RES_CONNECTION_SOCKET_CREATE_FAILURE
+        Memcached::RES_PAYLOAD_FAILURE
+
+
+    Redis:
+
+        Redis::REDIS_STRING
+        Redis::REDIS_SET
+        Redis::REDIS_LIST
+        Redis::REDIS_ZSET
+        Redis::REDIS_HASH
+        Redis::REDIS_NOT_FOUND
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
